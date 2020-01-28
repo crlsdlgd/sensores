@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.2h_tarea01_g04">
+    package="com.example.h2_tarea01_g04">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -26,14 +26,15 @@
             android:name="com.google.firebase.messaging.default.notification_channel_id"
             android:resource="@string/default_notification_channel_id" />
 
-        <activity android:name=".RegistroEstudiante" />
-        <activity android:name=".RegistroUsuario" />
-        <activity android:name=".Listar" />
-        <activity android:name=".Opciones" />
-        <activity android:name=".Detalle" />
-        <activity android:name=".Editar" />
-        <activity android:name=".Registro" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.h2_tarea01_g04.RegistroEstudiante" />
+        <activity android:name="com.example.h2_tarea01_g04.RegistroUsuario" />
+        <activity android:name="com.example.h2_tarea01_g04.Listar" />
+        <activity android:name="com.example.h2_tarea01_g04.Opciones" />
+        <activity android:name="com.example.h2_tarea01_g04.Detalle" />
+        <activity android:name="com.example.h2_tarea01_g04.Editar" />
+        <activity android:name="com.example.h2_tarea01_g04.Registro" />
+        <activity android:name="com.example.h2_tarea01_g04.MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />

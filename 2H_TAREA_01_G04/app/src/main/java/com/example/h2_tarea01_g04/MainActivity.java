@@ -1,4 +1,4 @@
-package com.example.proyecto_final_1h_g04;
+package com.example.h2_tarea01_g04;
 
 import android.content.Context;
 import android.content.Intent;
